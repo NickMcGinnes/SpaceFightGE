@@ -139,7 +139,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535369723}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -226,14 +226,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a45fbf34c277047b089a2b7fb081ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position: {x: 0, y: 0, z: 0}
+  MyPosition: {x: 0, y: 0, z: 0}
   Target: {x: 0, y: 0, z: 0}
   CurrentVelocity: {x: 0, y: 0, z: 0}
   DesiredVelocity: {x: 0, y: 0, z: 0}
   SteeringForce: {x: 0, y: 0, z: 0}
   Mass: 50
-  MaxForce: 2
-  MaxSpeed: 10
+  MaxForce: 30
+  MaxSpeed: 20
+  SlowingRadius: 20
 --- !u!1 &784321201
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +390,7 @@ GameObject:
   - component: {fileID: 1177935442}
   - component: {fileID: 1177935441}
   - component: {fileID: 1177935440}
+  - component: {fileID: 1177935444}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -459,6 +461,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1177935444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177935439}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ddc4c55f83677d41befbce25c267817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetGameObject: {fileID: 535369723}
 --- !u!4 &1310277985 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400694, guid: 88ca425402d30464482f3a03727ffc45, type: 3}
