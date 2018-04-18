@@ -16,6 +16,8 @@ public class MyBoid : MonoBehaviour
 	public float MaxForce = 30;
 	public float MaxSpeed = 20;
 	public float SlowingRadius = 500;
+
+	private float _wanderTimer = 0.0f;
 	//private Rigidbody _myRigidbody;
 	// Use this for initialization
 	void Start ()
@@ -25,49 +27,47 @@ public class MyBoid : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update ()
-	{
-		GetMousePositionAsTarget();
-
-		if ((transform.position - Target).magnitude > 0.05f)
-		{
-			SeekToTarget();
-		}
-		else {
-			transform.position = Target;
-			CurrentVelocity = Vector3.zero;
-		}
+	{	
+		GetWanderTarget();
 		
+		SeekToTarget();
 		
 		if (CurrentVelocity.magnitude > float.Epsilon) {
-			transform.forward = DesiredVelocity;
+			transform.forward = SteeringForce;
 		}
 	}
 
 	void SeekToTarget()
 	{
+		// not the cleanest setup to jump in the method and return but keeps update clean while i learn
+		if ((Target - transform.position).magnitude < 0.05)
+		{
+			transform.position = Target;
+			CurrentVelocity = Vector3.zero;
+			return;
+		}
+		
 		MyPosition = transform.position;
 		Vector3 toTarget = Target - MyPosition;
-		
-		
+
 		float distance = toTarget.magnitude;
 		float ramped = MaxSpeed * (distance / SlowingRadius);
 		float clamped = Mathf.Min(ramped, MaxSpeed);
-		
+
 		DesiredVelocity = clamped * (toTarget / distance);
-		
+
 		//DesiredVelocity = (Target - myPosition).normalized * MaxSpeed;
-		
+
 		SteeringForce = DesiredVelocity - CurrentVelocity;
-		
+
 		SteeringForce = Vector3.ClampMagnitude(SteeringForce, MaxForce);
 		SteeringForce = SteeringForce / Mass;
 
 		CurrentVelocity = Vector3.ClampMagnitude(CurrentVelocity + SteeringForce, MaxSpeed);
-		
+
 		transform.position = MyPosition + CurrentVelocity * Time.deltaTime;
-		
-		
-		
+
+
 	}
 
 	void FleeFromTarget()
@@ -99,6 +99,15 @@ public class MyBoid : MonoBehaviour
 			Target = hit.point;
 		}
 		
+	}
+
+	void GetWanderTarget()
+	{
+		if (Time.time < _wanderTimer) return;
+		
+		Target = new Vector3(Random.Range(-50,50),0.0f,Random.Range(-50,50));
+
+		_wanderTimer = Time.time + Random.Range(1.0f, 7.0f);
 	}
 	
 	public void OnDrawGizmos()
