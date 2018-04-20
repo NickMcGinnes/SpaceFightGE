@@ -18,19 +18,23 @@ public class MyBoid : MonoBehaviour
 	public float SlowingRadius = 500;
 
 	private float _wanderTimer = 0.0f;
-	//private Rigidbody _myRigidbody;
-	// Use this for initialization
-	void Start ()
-	{
-		//_myRigidbody = GetComponent<Rigidbody>();
-	}
+	private float _circleRadius = 10.0f;
+
+	private Vector3 _circlePos;
 	
-	// Update is called once per frame
+	
+	
 	void Update ()
 	{	
-		GetWanderTarget();
+		GetRandomTarget();
 		
 		SeekToTarget();
+
+		CircleWander();
+		
+		
+		transform.position = MyPosition + CurrentVelocity * Time.deltaTime;
+		
 		
 		if (CurrentVelocity.magnitude > float.Epsilon) {
 			transform.forward = SteeringForce;
@@ -39,7 +43,8 @@ public class MyBoid : MonoBehaviour
 
 	void SeekToTarget()
 	{
-		// not the cleanest setup to jump in the method and return but keeps update clean while i learn
+		//check distance to target and leave if close enough
+		// not the cleanest setup to jump in the method and return but keeps update clean while I learn
 		if ((Target - transform.position).magnitude < 0.05)
 		{
 			transform.position = Target;
@@ -47,39 +52,35 @@ public class MyBoid : MonoBehaviour
 			return;
 		}
 		
+		//get vector to target
 		MyPosition = transform.position;
 		Vector3 toTarget = Target - MyPosition;
-
+		
+		// get desired Velocity Vector
 		float distance = toTarget.magnitude;
 		float ramped = MaxSpeed * (distance / SlowingRadius);
 		float clamped = Mathf.Min(ramped, MaxSpeed);
-
 		DesiredVelocity = clamped * (toTarget / distance);
 
-		//DesiredVelocity = (Target - myPosition).normalized * MaxSpeed;
-
+		//apply Desired Velocity to Steering force
 		SteeringForce = DesiredVelocity - CurrentVelocity;
-
 		SteeringForce = Vector3.ClampMagnitude(SteeringForce, MaxForce);
 		SteeringForce = SteeringForce / Mass;
 
+		//add steering force to Current Velocity
 		CurrentVelocity = Vector3.ClampMagnitude(CurrentVelocity + SteeringForce, MaxSpeed);
-
-		transform.position = MyPosition + CurrentVelocity * Time.deltaTime;
-
-
+		
+		
 	}
 
 	void FleeFromTarget()
 	{
 		MyPosition = transform.position;
-
 		Vector3 fromTarget =  MyPosition - Target;
 		
 		DesiredVelocity = fromTarget.normalized * MaxSpeed;
 		
 		SteeringForce = DesiredVelocity - CurrentVelocity;
-		
 		SteeringForce = Vector3.ClampMagnitude(SteeringForce, MaxForce);
 		SteeringForce = SteeringForce / Mass;
 
@@ -87,7 +88,21 @@ public class MyBoid : MonoBehaviour
 		
 		transform.position = MyPosition + CurrentVelocity * Time.deltaTime;
 	}
-	
+
+	void CircleWander()
+	{
+		//get Circle Location from Current Velocity
+		_circlePos = CurrentVelocity.normalized;
+		_circlePos = transform.position + (_circlePos * _circleRadius);
+
+		//set up direction for random force
+		Vector3 displacementVector3 = Vector3.up;
+
+		displacementVector3 *= _circleRadius;
+		
+
+
+	}
 	
 	void GetMousePositionAsTarget()
 	{
@@ -101,7 +116,7 @@ public class MyBoid : MonoBehaviour
 		
 	}
 
-	void GetWanderTarget()
+	void GetRandomTarget()
 	{
 		if (Time.time < _wanderTimer) return;
 		
@@ -120,6 +135,9 @@ public class MyBoid : MonoBehaviour
 		
 		Gizmos.color = Color.green;
 		Gizmos.DrawLine (transform.position, transform.position + (CurrentVelocity * 5));
+		
+		Gizmos.color = Color.cyan;
+		Gizmos.DrawSphere(_circlePos,_circleRadius);
 		
 	}
 }
