@@ -12,9 +12,10 @@ public class Ship : MonoBehaviour
 	
 	[Header("General Values")]
 	//public List<Engine> MyEngines;
-	private const float OneG = .0098f;
+	protected const float OneG = .0098f;
 	public GameObject Sphere;
 	public bool HasPeople = false;
+	protected const float GforceForPeople = 16;
 
 	[Header("StateMachines")]
 	public MyStateMachine MyMovementMachine;
@@ -42,6 +43,7 @@ public class Ship : MonoBehaviour
 	public Vector3 DesiredVector3 = Vector3.zero;
 	public Vector3 SteeringVector3 = Vector3.zero;
 	public float Speed = 0.0f;
+	public float RotationSpeed = 0.1f;
 	
 	[Header("Targets")]
 	public Vector3 TargetPosition = Vector3.zero;
@@ -49,84 +51,44 @@ public class Ship : MonoBehaviour
 	public GameObject PrimaryTargetObject;
 	public List<GameObject> TargetObjects;
 	
+	
+	
 
-	private float _wanderTimer = 0.0f;
-	[SerializeField] private float rotationSpeed;
-
+	protected float _findRandomTargetTimer = 0.0f;
 	#endregion
 	
 	// Use this for initialization
-	void Start ()
+	public virtual void Start ()
 	{
-		//MyMovementMachine = new MyStateMachine();
-		//MyMovementMachine.ChangeState(new StateReach(this));
+		MakeMachines();
+		ForceNeededForOneG = ShipMass * OneG;
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	public virtual void Update ()
 	{
-		FindRandomTarget();
-		ReachTarget();
-		Rotate();
-		//SimpleRotate();
-		//MyMovementMachine.Update();
+		MyMovementMachine.Update();
+		MyCombatMachine.Update();
+		MyTargetingMachine.Update();
+	}
+
+	public virtual void MakeMachines()
+	{
+		MyMovementMachine = new MyStateMachine();
+		MyCombatMachine = new MyStateMachine();
+		MyTargetingMachine = new MyStateMachine();
 	}
 	
-	void FindRandomTarget()
+	public void FindRandomTarget()
 	{
-		if (Time.time < _wanderTimer) return;
+		if (Time.time < _findRandomTargetTimer) return;
 		
 		TargetPosition = new Vector3(Random.Range(-400,400),Random.Range(-400,400),Random.Range(-400,400));
 
-		_wanderTimer = Time.time + Random.Range(10.0f, 25.0f);
+		_findRandomTargetTimer = Time.time + Random.Range(10.0f, 25.0f);
 		Sphere.transform.position = TargetPosition;
 	}
 
-	public void ReachTarget()
-	{
-		Vector3 toTarget = TargetPosition - transform.position;
-		float distance = toTarget.magnitude;
-		
-		DesiredVector3 = toTarget / distance;
-		SteeringVector3 = DesiredVector3 - CurrentVelocity;
-
-		MainEnginePower = Mathf.Min(SteeringVector3.magnitude * 10,GForceLimit) ;
-		
-		float actualForce = MainEnginePower * ForceNeededForOneG;
-		MainDriveAcceleration = (actualForce / ShipMass);
-		
-		Vector3 accelerationVector3 = MainDriveAcceleration * transform.forward;
-		CurrentVelocity += accelerationVector3 * Time.deltaTime;
-		
-		transform.position += CurrentVelocity;
-		
-	}
-
-	public void Rotate()
-	{
-		Vector3 cross = Vector3.Cross(transform.forward, SteeringVector3.normalized);
-		float angle = Vector3.Angle(transform.forward, SteeringVector3.normalized);
-
-		//Quaternion q = Quaternion.Euler(cross);
-		//Quaternion rotDiff = Quaternion.FromToRotation(transform.forward, (TargetPosition - transform.position));
-		
-		Quaternion myLookRot = Quaternion.LookRotation(SteeringVector3);
-		
-		transform.rotation = Quaternion.Slerp(transform.rotation, myLookRot, rotationSpeed);
-		
-		//transform.rotation *= rotDiff;
-		
-	}
-	
-	void SimpleRotate()
-	{
-		Vector3 x = SteeringVector3.normalized;
-
-		transform.forward = x;
-		
-		float angle = Vector3.Angle(transform.forward, SteeringVector3.normalized);
-		
-	}
 	
 	void CalcRCS() //unfinished
 	{
@@ -140,7 +102,7 @@ public class Ship : MonoBehaviour
 	}
 
 	
-	public void OnDrawGizmos()
+	public virtual void OnDrawGizmos()
 	{
 		Gizmos.color = Color.red;
 		Gizmos.DrawLine (transform.position, transform.position + (DesiredVector3 * 100));

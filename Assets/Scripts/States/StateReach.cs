@@ -20,23 +20,9 @@ public class StateReach : IState {
 
 	public override void Execute()
 	{
-		
-		//Rotate();
-		SimpleRotate();
 		ReachTarget();
-	}
-
-	void PredictTargetLocation()
-	{
-		//Vector3 tposVector3 = MyShip.PrimaryTargetObject.transform.position;
-		Vector3 tposVector3 = MyShip.TargetPosition;
-		Vector3 toTarget = tposVector3 - MyShip.transform.position;
-
-		float timer = (toTarget.magnitude/ MyShip.CurrentVelocity.magnitude);
-		
-		//Debug.Log(timer);
-		
-		
+		Rotate();
+		//SimpleRotate();
 	}
 	
 	public void ReachTarget()
@@ -46,6 +32,9 @@ public class StateReach : IState {
 		
 		MyShip.DesiredVector3 = toTarget / distance;
 		MyShip.SteeringVector3 = MyShip.DesiredVector3 - MyShip.CurrentVelocity;
+		
+		float angle = Vector3.Angle(MyShip.CurrentVelocity, MyShip.SteeringVector3.normalized);
+		MyShip.MainEnginePower = Mathf.Min(MyShip.SteeringVector3.magnitude * angle,MyShip.GForceLimit);
 		
 		float actualForce = MyShip.MainEnginePower * MyShip.ForceNeededForOneG;
 		MyShip.MainDriveAcceleration = (actualForce / MyShip.ShipMass);
@@ -60,22 +49,8 @@ public class StateReach : IState {
 
 	public void Rotate()
 	{
-		Vector3 cross = Vector3.Cross(MyShip.transform.forward, MyShip.SteeringVector3.normalized);
-		float angle = Vector3.Angle(MyShip.transform.forward, MyShip.SteeringVector3.normalized);
-		var q = Quaternion.Euler(cross);
-		
-		MyShip.transform.rotation *= q;
-		
-		if (angle < 5)
-		{
-			MyShip.MainEnginePower = 3;
-		}
-		else
-		{
-			
-			MyShip.MainEnginePower = 0;
-		}
-		
+		Quaternion myLookRot = Quaternion.LookRotation(MyShip.SteeringVector3);
+		MyShip.transform.rotation = Quaternion.Slerp(MyShip.transform.rotation, myLookRot, MyShip.RotationSpeed);
 	}
 
 

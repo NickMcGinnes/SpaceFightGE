@@ -376,16 +376,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 114132170989198390, guid: 0d26b40491dddbb4c8978e0e7896d793,
+    - target: {fileID: 114281159986397226, guid: 0d26b40491dddbb4c8978e0e7896d793,
         type: 2}
       propertyPath: Sphere
       value: 
       objectReference: {fileID: 1794410842}
-    - target: {fileID: 114132170989198390, guid: 0d26b40491dddbb4c8978e0e7896d793,
-        type: 2}
-      propertyPath: rotationSpeed
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d26b40491dddbb4c8978e0e7896d793, type: 2}
   m_IsPrefabParent: 0
@@ -428,48 +423,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 1271539282615352, guid: 2be76a0c165a3464abdc138e1a3b2c39, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1095452029676324, guid: 2be76a0c165a3464abdc138e1a3b2c39, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 20371792516417628, guid: 2be76a0c165a3464abdc138e1a3b2c39,
-        type: 2}
-      propertyPath: far clip plane
-      value: 500000
-      objectReference: {fileID: 0}
-    - target: {fileID: 20181870846199590, guid: 2be76a0c165a3464abdc138e1a3b2c39,
-        type: 2}
-      propertyPath: far clip plane
-      value: 500000
-      objectReference: {fileID: 0}
-    - target: {fileID: 20371792516417628, guid: 2be76a0c165a3464abdc138e1a3b2c39,
-        type: 2}
-      propertyPath: field of view
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 20181870846199590, guid: 2be76a0c165a3464abdc138e1a3b2c39,
-        type: 2}
-      propertyPath: field of view
-      value: 80
-      objectReference: {fileID: 0}
-    - target: {fileID: 4857781932517956, guid: 2be76a0c165a3464abdc138e1a3b2c39, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4857781932517956, guid: 2be76a0c165a3464abdc138e1a3b2c39, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -17.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4857781932517956, guid: 2be76a0c165a3464abdc138e1a3b2c39, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 81908075381645722, guid: 2be76a0c165a3464abdc138e1a3b2c39, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2be76a0c165a3464abdc138e1a3b2c39, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1647132896

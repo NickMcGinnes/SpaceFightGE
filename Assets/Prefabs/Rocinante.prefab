@@ -4685,7 +4685,7 @@ GameObject:
   - component: {fileID: 33203074838424388}
   - component: {fileID: 65425448471315300}
   - component: {fileID: 23131462066158258}
-  - component: {fileID: 114132170989198390}
+  - component: {fileID: 114281159986397226}
   m_Layer: 0
   m_Name: Rocinante
   m_TagString: Untagged
@@ -16848,7 +16848,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114132170989198390
+--- !u!114 &114281159986397226
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -16856,7 +16856,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1796894320879180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b43b91789c308f24192f71b8a63519b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 17854f4cddc29424aa75068ee6e8e9b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sphere: {fileID: 0}
@@ -16865,7 +16865,7 @@ MonoBehaviour:
   ForceNeededForOneG: 2.352
   MainEnginePower: 1
   MainDriveAcceleration: 0
-  MaxGForceAllowed: 100
+  GForceLimit: 100
   RcsPower: 1
   RcsAcceleration: 0
   RcsVector3: {x: 0, y: 0, z: 0}
@@ -16875,6 +16875,7 @@ MonoBehaviour:
   DesiredVector3: {x: 0, y: 0, z: 0}
   SteeringVector3: {x: 0, y: 0, z: 0}
   Speed: 0
+  RotationSpeed: 0.1
   TargetPosition: {x: 0, y: 0, z: 0}
   TargetVelocity: {x: 0, y: 0, z: 0}
   PrimaryTargetObject: {fileID: 0}
