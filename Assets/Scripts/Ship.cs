@@ -27,7 +27,7 @@ public class Ship : MonoBehaviour
 	[Header("Main Drive Values")]
 	public float MainEnginePower = 1.0f; // 1 = 1G of acceleration
 	public float MainDriveAcceleration = 0.0f;
-	public float MaxGForceAllowed = 100.0f;
+	public float GForceLimit = 100.0f;
 
 	[Header("RCS Values")] 
 	public float RcsPower = 1.0f;
@@ -51,7 +51,8 @@ public class Ship : MonoBehaviour
 	
 
 	private float _wanderTimer = 0.0f;
-	
+	[SerializeField] private float rotationSpeed;
+
 	#endregion
 	
 	// Use this for initialization
@@ -65,8 +66,9 @@ public class Ship : MonoBehaviour
 	void Update ()
 	{
 		FindRandomTarget();
-		Rotate();
 		ReachTarget();
+		Rotate();
+		//SimpleRotate();
 		//MyMovementMachine.Update();
 	}
 	
@@ -87,12 +89,13 @@ public class Ship : MonoBehaviour
 		
 		DesiredVector3 = toTarget / distance;
 		SteeringVector3 = DesiredVector3 - CurrentVelocity;
+
+		MainEnginePower = Mathf.Min(SteeringVector3.magnitude * 10,GForceLimit) ;
 		
 		float actualForce = MainEnginePower * ForceNeededForOneG;
 		MainDriveAcceleration = (actualForce / ShipMass);
 		
 		Vector3 accelerationVector3 = MainDriveAcceleration * transform.forward;
-		
 		CurrentVelocity += accelerationVector3 * Time.deltaTime;
 		
 		transform.position += CurrentVelocity;
@@ -103,22 +106,25 @@ public class Ship : MonoBehaviour
 	{
 		Vector3 cross = Vector3.Cross(transform.forward, SteeringVector3.normalized);
 		float angle = Vector3.Angle(transform.forward, SteeringVector3.normalized);
-		
-		Quaternion rotDiff = Quaternion.FromToRotation(transform.forward,SteeringVector3.normalized);
 
-		Quaternion q = Quaternion.Euler(cross);
+		//Quaternion q = Quaternion.Euler(cross);
+		//Quaternion rotDiff = Quaternion.FromToRotation(transform.forward, (TargetPosition - transform.position));
 		
-		transform.rotation *= rotDiff;
+		Quaternion myLookRot = Quaternion.LookRotation(SteeringVector3);
 		
-		if (angle < 5)
-		{
-			MainEnginePower = 3;
-		}
-		else
-		{
-			
-			MainEnginePower = 0;
-		}
+		transform.rotation = Quaternion.Slerp(transform.rotation, myLookRot, rotationSpeed);
+		
+		//transform.rotation *= rotDiff;
+		
+	}
+	
+	void SimpleRotate()
+	{
+		Vector3 x = SteeringVector3.normalized;
+
+		transform.forward = x;
+		
+		float angle = Vector3.Angle(transform.forward, SteeringVector3.normalized);
 		
 	}
 	
