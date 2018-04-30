@@ -4685,6 +4685,7 @@ GameObject:
   - component: {fileID: 33203074838424388}
   - component: {fileID: 65425448471315300}
   - component: {fileID: 23131462066158258}
+  - component: {fileID: 114132170989198390}
   m_Layer: 0
   m_Name: Rocinante
   m_TagString: Untagged
@@ -9650,8 +9651,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1796894320879180}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: 0, z: 6.69}
+  m_LocalRotation: {x: 0.04236405, y: 0.55237144, z: -0.30730888, w: 0.7737263}
+  m_LocalPosition: {x: 606, y: 502, z: 6.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4111943790257546}
@@ -9663,7 +9664,7 @@ Transform:
   - {fileID: 4295050482944876}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.894001, y: 65.015, z: -27.965002}
 --- !u!4 &4775243868375196
 Transform:
   m_ObjectHideFlags: 1
@@ -16847,3 +16848,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114132170989198390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1796894320879180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43b91789c308f24192f71b8a63519b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sphere: {fileID: 0}
+  HasPeople: 0
+  ShipMass: 240
+  ForceNeededForOneG: 2.352
+  MainEnginePower: 1
+  MainDriveAcceleration: 0
+  MaxGForceAllowed: 100
+  RcsPower: 1
+  RcsAcceleration: 0
+  RcsVector3: {x: 0, y: 0, z: 0}
+  CurrentVelocity: {x: 0, y: 0, z: 0}
+  CurrentRotation: {x: 0, y: 0, z: 0}
+  RotQuat: {x: 0, y: 0, z: 0, w: 1}
+  DesiredVector3: {x: 0, y: 0, z: 0}
+  SteeringVector3: {x: 0, y: 0, z: 0}
+  Speed: 0
+  TargetPosition: {x: 0, y: 0, z: 0}
+  TargetVelocity: {x: 0, y: 0, z: 0}
+  PrimaryTargetObject: {fileID: 0}
+  TargetObjects: []

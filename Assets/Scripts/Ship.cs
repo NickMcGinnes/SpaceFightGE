@@ -17,9 +17,9 @@ public class Ship : MonoBehaviour
 	public bool HasPeople = false;
 
 	[Header("StateMachines")]
-	public StatemachineNick MyMovementMachine;
-	public StatemachineNick MyCombatMachine;
-	public StatemachineNick MyTargetingMachine;
+	public MyStateMachine MyMovementMachine;
+	public MyStateMachine MyCombatMachine;
+	public MyStateMachine MyTargetingMachine;
 	
 	public float ShipMass = 240.0f; // the mass of the ship
 	public float ForceNeededForOneG = 2.352f; 
@@ -57,32 +57,17 @@ public class Ship : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		MyMovementMachine = new StatemachineNick();
-		MyMovementMachine.ChangeState(new StateReach(this));
+		//MyMovementMachine = new MyStateMachine();
+		//MyMovementMachine.ChangeState(new StateReach(this));
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
 		FindRandomTarget();
-		MyMovementMachine.Update();
-		//CalcForwardVelocity();
-		//Traversal();
-	}
-	
-	private void ControlShip()
-	{
-		if (Input.GetKey(KeyCode.W))
-		{
-			MainEnginePower += 0.5f * Time.deltaTime;
-			MainEnginePower = Mathf.Min(MainEnginePower, MaxGForceAllowed);
-		}
-
-		if (Input.GetKey(KeyCode.S))
-		{
-			MainEnginePower -= 0.5f * Time.deltaTime;
-			MainEnginePower = Mathf.Max(MainEnginePower, 0.0f);
-		}
+		Rotate();
+		ReachTarget();
+		//MyMovementMachine.Update();
 	}
 	
 	void FindRandomTarget()
@@ -95,14 +80,13 @@ public class Ship : MonoBehaviour
 		Sphere.transform.position = TargetPosition;
 	}
 
-	void PanToTarget()
+	public void ReachTarget()
 	{
+		Vector3 toTarget = TargetPosition - transform.position;
+		float distance = toTarget.magnitude;
 		
-		CurrentRotation = Vector3.RotateTowards(CurrentRotation, SteeringVector3, 0.05f, 1);
-	}
-	
-	void CalcForwardVelocity()
-	{
+		DesiredVector3 = toTarget / distance;
+		SteeringVector3 = DesiredVector3 - CurrentVelocity;
 		
 		float actualForce = MainEnginePower * ForceNeededForOneG;
 		MainDriveAcceleration = (actualForce / ShipMass);
@@ -110,23 +94,40 @@ public class Ship : MonoBehaviour
 		Vector3 accelerationVector3 = MainDriveAcceleration * transform.forward;
 		
 		CurrentVelocity += accelerationVector3 * Time.deltaTime;
+		
+		transform.position += CurrentVelocity;
+		
 	}
 
-	void CalcRCS()
+	public void Rotate()
 	{
+		Vector3 cross = Vector3.Cross(transform.forward, SteeringVector3.normalized);
+		float angle = Vector3.Angle(transform.forward, SteeringVector3.normalized);
+		var q = Quaternion.Euler(cross);
+		
+		transform.rotation *= q;
+		
+		if (angle < 5)
+		{
+			MainEnginePower = 3;
+		}
+		else
+		{
+			
+			MainEnginePower = 0;
+		}
+		
+	}
+	
+	void CalcRCS() //unfinished
+	{
+		
 		float actualForce = RcsPower * ForceNeededForOneG;
 		RcsAcceleration = actualForce / ShipMass;
 		
 		Vector3 accelerationVector3 = RcsAcceleration * RcsVector3;
 
 		CurrentVelocity += accelerationVector3 * Time.deltaTime;
-	}
-	
-	void Traversal()
-	{
-		transform.rotation = RotQuat;
-		//transform.forward += CurrentRotation;
-		transform.position += CurrentVelocity;
 	}
 
 	

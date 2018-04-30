@@ -21,7 +21,8 @@ public class StateReach : IState {
 	public override void Execute()
 	{
 		
-		Rotate();
+		//Rotate();
+		SimpleRotate();
 		ReachTarget();
 	}
 
@@ -61,16 +62,11 @@ public class StateReach : IState {
 	{
 		Vector3 cross = Vector3.Cross(MyShip.transform.forward, MyShip.SteeringVector3.normalized);
 		float angle = Vector3.Angle(MyShip.transform.forward, MyShip.SteeringVector3.normalized);
-		Quaternion q = Quaternion.Euler(cross);
-		
-		Debug.Log(cross);
-		
-		
-		//Debug.Log(q);
+		var q = Quaternion.Euler(cross);
 		
 		MyShip.transform.rotation *= q;
 		
-		if (angle < 1)
+		if (angle < 5)
 		{
 			MyShip.MainEnginePower = 3;
 		}
