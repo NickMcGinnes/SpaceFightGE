@@ -103,9 +103,12 @@ public class Ship : MonoBehaviour
 	{
 		Vector3 cross = Vector3.Cross(transform.forward, SteeringVector3.normalized);
 		float angle = Vector3.Angle(transform.forward, SteeringVector3.normalized);
-		var q = Quaternion.Euler(cross);
 		
-		transform.rotation *= q;
+		Quaternion rotDiff = Quaternion.FromToRotation(transform.forward,SteeringVector3.normalized);
+
+		Quaternion q = Quaternion.Euler(cross);
+		
+		transform.rotation *= rotDiff;
 		
 		if (angle < 5)
 		{
