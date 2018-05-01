@@ -23,6 +23,7 @@ public class StateReach : IState {
 		SetGoalPosition();
 		ReachTarget();
 		Rotate();
+		RCS();
 		//SimpleRotate();
 	}
 
@@ -40,7 +41,7 @@ public class StateReach : IState {
 		MyShip.SteeringVector3 = MyShip.DesiredVector3 - MyShip.CurrentVelocity;
 		
 		float angle = Vector3.Angle(MyShip.CurrentVelocity, MyShip.SteeringVector3.normalized);
-		MyShip.MainEnginePower = Mathf.Min(MyShip.SteeringVector3.magnitude * angle,MyShip.GForceLimit);
+		MyShip.MainEnginePower = Mathf.Min(MyShip.SteeringVector3.magnitude * angle,MyShip.GForceLimit * 0.5f);
 		
 		float actualForce = MyShip.MainEnginePower * MyShip.ForceNeededForOneG;
 		MyShip.MainDriveAcceleration = (actualForce / MyShip.ShipMass);
@@ -49,6 +50,13 @@ public class StateReach : IState {
 		
 		MyShip.CurrentVelocity += accelerationVector3 * Time.deltaTime;
 		
+	}
+	
+	void RCS()
+	{
+		Vector3 corrective = MyShip.SteeringVector3 - MyShip.CurrentVelocity;
+		float angle = Vector3.Angle(MyShip.CurrentVelocity, MyShip.SteeringVector3);
+		MyShip.CurrentVelocity += corrective.normalized * (0.005f * angle) * Time.deltaTime;
 	}
 
 	void Rotate()

@@ -14,16 +14,21 @@ public class Ship : MonoBehaviour
 	//public List<Engine> MyEngines;
 	protected const float OneG = .0098f;
 	public GameObject Sphere;
+	public float Health = 300;
 	public bool HasPeople = false;
 	protected const float GforceForPeople = 16;
+	public float CombatRange = 150;
+	public float ShipMass = 240.0f; // the mass of the ship
+	public float ForceNeededForOneG = 2.352f;
+	public string BadBullet;
+
+	public List<GameObject> myGuns;
 
 	[Header("StateMachines")]
 	public MyStateMachine MyMovementMachine;
 	public MyStateMachine MyCombatMachine;
 	public MyStateMachine MyTargetingMachine;
-	
-	public float ShipMass = 240.0f; // the mass of the ship
-	public float ForceNeededForOneG = 2.352f; 
+	public IState currentMoveState;
 	
 	[Header("Main Drive Values")]
 	public float MainEnginePower = 1.0f; // 1 = 1G of acceleration
@@ -34,7 +39,6 @@ public class Ship : MonoBehaviour
 	public float RcsPower = 1.0f;
 	public float RcsAcceleration = 0.0f;
 	public Vector3 RcsVector3 = Vector3.zero;
-	
 	
 	[Header("My Vector Values")]
 	public Vector3 CurrentVelocity = Vector3.zero;
@@ -53,10 +57,8 @@ public class Ship : MonoBehaviour
 	public GameObject PrimaryTargetObject;
 	public List<GameObject> TargetObjects;
 	
-	
-	
-
 	protected float _findRandomTargetTimer = 0.0f;
+	
 	#endregion
 	
 	// Use this for initialization
@@ -95,19 +97,6 @@ public class Ship : MonoBehaviour
 		_findRandomTargetTimer = Time.time + Random.Range(10.0f, 25.0f);
 		Sphere.transform.position = GoalPosition;
 	}
-
-	
-	void CalcRCS() //unfinished
-	{
-		
-		float actualForce = RcsPower * ForceNeededForOneG;
-		RcsAcceleration = actualForce / ShipMass;
-		
-		Vector3 accelerationVector3 = RcsAcceleration * RcsVector3;
-
-		CurrentVelocity += accelerationVector3 * Time.deltaTime;
-	}
-
 	
 	public virtual void OnDrawGizmos()
 	{
@@ -120,5 +109,16 @@ public class Ship : MonoBehaviour
 		Gizmos.color = Color.green;
 		Gizmos.DrawLine (transform.position, transform.position + (CurrentVelocity * 100));
 	}
-	
+
+	private void OnCollisionEnter(Collision other)
+	{
+		if (other.gameObject.CompareTag(BadBullet))
+		{
+			Destroy(other.gameObject);
+			Health -= 1;
+			
+			if (Health < 0)
+				Destroy(gameObject);
+		}
+	}
 }

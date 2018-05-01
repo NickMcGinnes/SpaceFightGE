@@ -23,6 +23,11 @@ public class MyStateMachine
 			_currentRunningState.Enter();
 		}
 	}
+	
+	public IState GetCurrentState()
+	{
+		return _currentRunningState;
+	}
 
 	public void Update()
 	{

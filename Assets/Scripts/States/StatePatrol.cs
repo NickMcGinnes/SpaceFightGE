@@ -27,6 +27,7 @@ public class StatePatrol : IState {
 		MyShip.GoalPosition = Calculate();
 		ReachTarget();
 		Rotate();
+		RCS();
 	}
 	
 	void ReachTarget()
@@ -34,11 +35,11 @@ public class StatePatrol : IState {
 		Vector3 toTarget = MyShip.GoalPosition - MyShip.transform.position;
 		float distance = toTarget.magnitude;
 		
-		MyShip.DesiredVector3 = toTarget / (distance*0.7f);
+		MyShip.DesiredVector3 = toTarget / distance;
 		MyShip.SteeringVector3 = MyShip.DesiredVector3 - MyShip.CurrentVelocity;
 		
-		float angle = Vector3.Angle(MyShip.CurrentVelocity, MyShip.SteeringVector3.normalized);
-		MyShip.MainEnginePower = Mathf.Min(MyShip.SteeringVector3.magnitude * angle,MyShip.GForceLimit);
+		float angle = Vector3.Angle(MyShip.CurrentVelocity.normalized, MyShip.SteeringVector3.normalized);
+		MyShip.MainEnginePower = Mathf.Min(MyShip.SteeringVector3.magnitude * angle,MyShip.GForceLimit/4);
 		
 		float actualForce = MyShip.MainEnginePower * MyShip.ForceNeededForOneG;
 		MyShip.MainDriveAcceleration = (actualForce / MyShip.ShipMass);
@@ -47,6 +48,13 @@ public class StatePatrol : IState {
 		
 		MyShip.CurrentVelocity += accelerationVector3 * Time.deltaTime;
 		
+	}
+
+	void RCS()
+	{
+		Vector3 corrective = MyShip.SteeringVector3 - MyShip.CurrentVelocity;
+		float angle = Vector3.Angle(MyShip.CurrentVelocity, MyShip.SteeringVector3);
+		MyShip.CurrentVelocity += corrective.normalized * (0.005f * angle) * Time.deltaTime;
 	}
 
 	void Rotate()
@@ -65,14 +73,7 @@ public class StatePatrol : IState {
 			path.AdvanceToNext();
 		}
 
-		if (path.looped && path.IsLast())
-		{
-			return nextWaypoint;
-		}
-		else
-		{
-			return MyShip.GoalPosition;
-		}
-		
+		return nextWaypoint;
+
 	}
 }

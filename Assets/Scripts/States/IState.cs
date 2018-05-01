@@ -13,4 +13,6 @@ public abstract class IState
 	public abstract void Exit();
 	public abstract void Execute();
 
+	
+
 }

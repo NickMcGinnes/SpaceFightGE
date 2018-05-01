@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 124414970947191602}
   - component: {fileID: 81541758957383896}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 20371792516417628}
   - component: {fileID: 124235953444742860}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: TacticalCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966271
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -187,7 +187,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 500000
-  field of view: 30
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: 1

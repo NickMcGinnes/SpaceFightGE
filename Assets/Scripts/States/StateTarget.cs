@@ -52,15 +52,15 @@ public class StateTarget : IState
 	
 	void PredictTargetLocation()
 	{
-		
+		if (MyShip.PrimaryTargetObject == null) return;
 		Vector3 tposVector3 = MyShip.PrimaryTargetObject.transform.position;
-		//Vector3 tposVector3 = MyShip.TargetPosition;
 		Vector3 toTarget = tposVector3 - MyShip.transform.position;
 
 		float timer = (toTarget.magnitude/ MyShip.CurrentVelocity.magnitude);
 		
 		MyShip.AimPosition = _tarShip.transform.position + _tarShip.CurrentVelocity * timer;
-
+		
+		if( MyShip.Sphere !=null)
 		MyShip.Sphere.transform.position = MyShip.AimPosition;
 
 

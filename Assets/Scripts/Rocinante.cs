@@ -8,6 +8,7 @@ public class Rocinante : Ship {
 	public override void Start ()
 	{
 		base.Start();
+		
 		MyMovementMachine.ChangeState(new StateReach(this));
 		MyTargetingMachine.ChangeState(new StateTarget(this));
 	}
@@ -16,7 +17,36 @@ public class Rocinante : Ship {
 	public override void Update () 
 	{
 		base.Update();
-		//base.FindRandomTarget();
+		CheckBehaviour();
+	}
+
+	void CheckBehaviour()
+	{
+		if (PrimaryTargetObject == null)
+		{
+			MyMovementMachine.ChangeState(new StateIdle(this));
+			MyCombatMachine.ChangeState(new StateIdle(this));
+			return;
+		}
+		float distanceToEnemy = (PrimaryTargetObject.transform.position - transform.position).magnitude;
+		currentMoveState = MyMovementMachine.GetCurrentState();
+		if (currentMoveState is StateReach)
+		{
+			if (distanceToEnemy < CombatRange)
+			{
+				MyMovementMachine.ChangeState(new StateCombat(this));
+				MyCombatMachine.ChangeState(new StateEngage(this));
+			}
+		}
+		else if (currentMoveState is StateCombat)
+		{
+			if (distanceToEnemy > CombatRange + 100)
+			{
+				MyMovementMachine.ChangeState(new StateReach(this));
+				MyCombatMachine.ChangeState(new StateIdle(this));
+			}
+		}
+		
 	}
 	
 }

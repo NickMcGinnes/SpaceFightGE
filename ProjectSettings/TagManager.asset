@@ -7,6 +7,9 @@ TagManager:
   - Ship
   - Missile
   - Station
+  - Bullet
+  - PlayerBullet
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -21,8 +24,8 @@ TagManager:
   - Tactical
   - Player
   - Enemy
-  - 
-  - 
+  - Bullet
+  - Gun
   - 
   - 
   - 
