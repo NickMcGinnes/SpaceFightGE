@@ -9,13 +9,14 @@ public class Rocinante : Ship {
 	{
 		base.Start();
 		MyMovementMachine.ChangeState(new StateReach(this));
+		MyTargetingMachine.ChangeState(new StateTarget(this));
 	}
 	
 	// Update is called once per frame
 	public override void Update () 
 	{
 		base.Update();
-		base.FindRandomTarget();
+		//base.FindRandomTarget();
 	}
 	
 }

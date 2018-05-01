@@ -40,14 +40,16 @@ public class Ship : MonoBehaviour
 	public Vector3 CurrentVelocity = Vector3.zero;
 	public Vector3 CurrentRotation = Vector3.zero;
 	public Quaternion RotQuat = Quaternion.identity;
+	public Vector3 GoalPosition = Vector3.zero;
 	public Vector3 DesiredVector3 = Vector3.zero;
 	public Vector3 SteeringVector3 = Vector3.zero;
 	public float Speed = 0.0f;
 	public float RotationSpeed = 0.1f;
-	
-	[Header("Targets")]
-	public Vector3 TargetPosition = Vector3.zero;
-	public Vector3 TargetVelocity = Vector3.zero;
+
+	[Header("Targets")] 
+	public LayerMask TargetLayerMask;
+	public float ScannerRange = 1000;
+	public Vector3 AimPosition;
 	public GameObject PrimaryTargetObject;
 	public List<GameObject> TargetObjects;
 	
@@ -60,6 +62,9 @@ public class Ship : MonoBehaviour
 	// Use this for initialization
 	public virtual void Start ()
 	{
+		if (HasPeople)
+			GForceLimit = GforceForPeople;
+		
 		MakeMachines();
 		ForceNeededForOneG = ShipMass * OneG;
 	}
@@ -70,6 +75,8 @@ public class Ship : MonoBehaviour
 		MyMovementMachine.Update();
 		MyCombatMachine.Update();
 		MyTargetingMachine.Update();
+
+		transform.position += CurrentVelocity;
 	}
 
 	public virtual void MakeMachines()
@@ -83,10 +90,10 @@ public class Ship : MonoBehaviour
 	{
 		if (Time.time < _findRandomTargetTimer) return;
 		
-		TargetPosition = new Vector3(Random.Range(-400,400),Random.Range(-400,400),Random.Range(-400,400));
+		GoalPosition = new Vector3(Random.Range(-400,400),Random.Range(-400,400),Random.Range(-400,400));
 
 		_findRandomTargetTimer = Time.time + Random.Range(10.0f, 25.0f);
-		Sphere.transform.position = TargetPosition;
+		Sphere.transform.position = GoalPosition;
 	}
 
 	
@@ -112,8 +119,6 @@ public class Ship : MonoBehaviour
 		
 		Gizmos.color = Color.green;
 		Gizmos.DrawLine (transform.position, transform.position + (CurrentVelocity * 100));
-		
-		
 	}
 	
 }

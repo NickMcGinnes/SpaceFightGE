@@ -20,17 +20,23 @@ public class StateReach : IState {
 
 	public override void Execute()
 	{
+		SetGoalPosition();
 		ReachTarget();
 		Rotate();
 		//SimpleRotate();
 	}
-	
-	public void ReachTarget()
+
+	void SetGoalPosition()
 	{
-		Vector3 toTarget = MyShip.TargetPosition - MyShip.transform.position;
+		MyShip.GoalPosition = MyShip.AimPosition;
+	}
+	
+	void ReachTarget()
+	{
+		Vector3 toTarget = MyShip.GoalPosition - MyShip.transform.position;
 		float distance = toTarget.magnitude;
 		
-		MyShip.DesiredVector3 = toTarget / distance;
+		MyShip.DesiredVector3 = toTarget / (distance*0.7f);
 		MyShip.SteeringVector3 = MyShip.DesiredVector3 - MyShip.CurrentVelocity;
 		
 		float angle = Vector3.Angle(MyShip.CurrentVelocity, MyShip.SteeringVector3.normalized);
@@ -43,14 +49,13 @@ public class StateReach : IState {
 		
 		MyShip.CurrentVelocity += accelerationVector3 * Time.deltaTime;
 		
-		MyShip.transform.position += MyShip.CurrentVelocity;
-		
 	}
 
-	public void Rotate()
+	void Rotate()
 	{
-		Quaternion myLookRot = Quaternion.LookRotation(MyShip.SteeringVector3);
-		MyShip.transform.rotation = Quaternion.Slerp(MyShip.transform.rotation, myLookRot, MyShip.RotationSpeed);
+		
+		MyShip.RotQuat = Quaternion.LookRotation(MyShip.SteeringVector3);
+		MyShip.transform.rotation = Quaternion.Slerp(MyShip.transform.rotation, MyShip.RotQuat, MyShip.RotationSpeed);
 	}
 
 

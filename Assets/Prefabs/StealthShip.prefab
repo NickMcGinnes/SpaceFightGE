@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4185643183489810}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4862813197994560}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4486205066131912}
   - component: {fileID: 33526332286461020}
   - component: {fileID: 23084713445577962}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh117
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4935893716027572}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4265391388434354}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thruster_Ring1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 4300454708675618}
   - component: {fileID: 33873592423354768}
   - component: {fileID: 23749853787396754}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh170
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4758305303074390}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4068517507608816}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4931953589088820}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Muzzle_Assembly1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 4839225286904370}
   - component: {fileID: 33700802558859948}
   - component: {fileID: 23091152928653338}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh129
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 4600874567099198}
   - component: {fileID: 33254459704071544}
   - component: {fileID: 23404317639509120}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh182
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4638857959655752}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4797943014045402}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4010752691310402}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 4005695590572436}
   - component: {fileID: 33035839353024182}
   - component: {fileID: 23523890587202600}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh160
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 4525975457626052}
   - component: {fileID: 33406977238404030}
   - component: {fileID: 23214760354048162}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh181
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 4171510167384064}
   - component: {fileID: 33455610500328760}
   - component: {fileID: 23125541320291208}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4077987263917192}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 4805254462101376}
   - component: {fileID: 33529401639064078}
   - component: {fileID: 23985341695129388}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh136
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4542521321488766}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mounting1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4948803497086638}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Galvin_Assembly2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4974871801553382}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Galvin_Assembly1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4252822790515238}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thruster_Ring_1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4720619658476932}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thrust_Ring2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4875932605617936}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 4968983001083552}
   - component: {fileID: 33322243586207238}
   - component: {fileID: 23422851987781092}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 4492227239420538}
   - component: {fileID: 33408571007636430}
   - component: {fileID: 23577294298784102}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh102
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4569846390970482}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 4699678612691652}
   - component: {fileID: 33210175757059878}
   - component: {fileID: 23246164766411432}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh133
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 4804824630150152}
   - component: {fileID: 33095489752333488}
   - component: {fileID: 23746108043421124}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh163
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 4788046364546430}
   - component: {fileID: 33265776425955644}
   - component: {fileID: 23579587215179632}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh127
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 4132103165063096}
   - component: {fileID: 33765222635833892}
   - component: {fileID: 23445989218288066}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 4812699985823806}
   - component: {fileID: 33564787527137874}
   - component: {fileID: 23029299105483792}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh92
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -544,7 +544,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4932283867870962}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4781555721109210}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +574,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4007334232025032}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 4481209462551714}
   - component: {fileID: 33018674278969958}
   - component: {fileID: 23654686749726840}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh91
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 4516773664258012}
   - component: {fileID: 33305232405440736}
   - component: {fileID: 23455993132209710}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 4685739434652452}
   - component: {fileID: 33074660885465838}
   - component: {fileID: 23913188936751922}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 4179429230921072}
   - component: {fileID: 33736709071073504}
   - component: {fileID: 23964251300269472}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh98
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4076755164070250}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4515901947586898}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +687,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4957727500710078}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Locking_Clamp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 4449843234292920}
   - component: {fileID: 33098917453730934}
   - component: {fileID: 23518205338084810}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh148
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +719,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4233355090173538}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4097645030355276}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thruster_Ring3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 4226480737596552}
   - component: {fileID: 33037947701018596}
   - component: {fileID: 23103104211433642}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh128
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   - component: {fileID: 4685279625022632}
   - component: {fileID: 33846969003491164}
   - component: {fileID: 23889543613339934}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4379345265340250}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -798,7 +798,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4586279521535644}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 4460194741570426}
   - component: {fileID: 33378661680787440}
   - component: {fileID: 23097817882588126}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4563624310948518}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 4818351409240232}
   - component: {fileID: 33275450551298224}
   - component: {fileID: 23966617252236590}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh149
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +862,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4168951491392022}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -877,7 +877,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4449656681660424}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   - component: {fileID: 4836881791556196}
   - component: {fileID: 33418915614499944}
   - component: {fileID: 23562962645741140}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 4855914113169398}
   - component: {fileID: 33237207136057858}
   - component: {fileID: 23983256084459518}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh114
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +928,7 @@ GameObject:
   - component: {fileID: 4128573165594590}
   - component: {fileID: 33420456626683498}
   - component: {fileID: 23368474926300486}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +943,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4015753015088766}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +958,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4248568956929728}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 4085924731156310}
   - component: {fileID: 33173906670813786}
   - component: {fileID: 23520580733614904}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh142
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +992,7 @@ GameObject:
   - component: {fileID: 4849844453527922}
   - component: {fileID: 33441086651713984}
   - component: {fileID: 23079394998306514}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 4925876817440042}
   - component: {fileID: 33156215332338590}
   - component: {fileID: 23625016015471482}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh174
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1024,7 +1024,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4105323539684122}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1041,7 +1041,7 @@ GameObject:
   - component: {fileID: 4414767564613724}
   - component: {fileID: 33962963461082160}
   - component: {fileID: 23779797243459204}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1056,7 +1056,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4570920639319332}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1073,7 +1073,7 @@ GameObject:
   - component: {fileID: 4115057849410758}
   - component: {fileID: 33135499236363830}
   - component: {fileID: 23314553738787782}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh118
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1088,7 +1088,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4001852932749294}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 4976382208680262}
   - component: {fileID: 33358658041714192}
   - component: {fileID: 23408468297238460}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh171
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1120,7 +1120,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4091414765525996}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1135,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4626872492200180}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1152,7 +1152,7 @@ GameObject:
   - component: {fileID: 4632801085032450}
   - component: {fileID: 33044207267424874}
   - component: {fileID: 23400387803103708}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh167
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1167,7 +1167,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4046596589526094}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1182,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4647411356948878}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1199,7 +1199,7 @@ GameObject:
   - component: {fileID: 4847260128023332}
   - component: {fileID: 33222075836554432}
   - component: {fileID: 23638172026923040}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,7 +1216,7 @@ GameObject:
   - component: {fileID: 4941153083545690}
   - component: {fileID: 33504611264627592}
   - component: {fileID: 23457450622717936}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh96
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,7 +1231,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4892217065025136}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1248,7 +1248,7 @@ GameObject:
   - component: {fileID: 4160767409158060}
   - component: {fileID: 33977127475220988}
   - component: {fileID: 23333251632476864}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh84
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1263,7 +1263,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4711660345066392}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 4816117477107822}
   - component: {fileID: 33472897525169468}
   - component: {fileID: 23250360616458068}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh139
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1297,7 +1297,7 @@ GameObject:
   - component: {fileID: 4283321216706318}
   - component: {fileID: 33479500887129334}
   - component: {fileID: 23939776176995776}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh101
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1314,7 +1314,7 @@ GameObject:
   - component: {fileID: 4335196535393968}
   - component: {fileID: 33744489648196822}
   - component: {fileID: 23900544895757560}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh81
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1329,7 +1329,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4440311249784002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,7 +1344,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4703389839003200}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 4261228660303176}
   - component: {fileID: 33065904017833842}
   - component: {fileID: 23922193909910458}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 4876157493441008}
   - component: {fileID: 33966260233948492}
   - component: {fileID: 23003774570675402}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1393,7 +1393,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4406938090193520}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1408,7 +1408,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4398960003766048}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thrust_Ring1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 4956932818211058}
   - component: {fileID: 33070650473818372}
   - component: {fileID: 23950427022075858}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1440,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4189585634477670}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1455,7 +1455,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4648534010263606}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1470,7 +1470,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4650938199655668}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1485,7 +1485,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4888051236287904}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,7 +1500,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4567856147869904}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1515,7 +1515,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4924548463552832}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1530,7 +1530,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4389583785219038}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1547,7 +1547,7 @@ GameObject:
   - component: {fileID: 4149625595155392}
   - component: {fileID: 33985792784549222}
   - component: {fileID: 23405731299226902}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1562,7 +1562,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4853898557130574}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1577,7 +1577,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4814561789722660}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1594,7 +1594,7 @@ GameObject:
   - component: {fileID: 4760457843363080}
   - component: {fileID: 33136723799055434}
   - component: {fileID: 23555830525788022}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1611,7 +1611,7 @@ GameObject:
   - component: {fileID: 4616065899201752}
   - component: {fileID: 33955295923576512}
   - component: {fileID: 23797883007813210}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1628,7 +1628,7 @@ GameObject:
   - component: {fileID: 4331934076698230}
   - component: {fileID: 33911405058598544}
   - component: {fileID: 23767959586100254}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh115
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1645,7 +1645,7 @@ GameObject:
   - component: {fileID: 4793748989694246}
   - component: {fileID: 33921987881472062}
   - component: {fileID: 23891680565176916}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh82
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1660,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4281114373643844}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SW_Ion_Cannon_3_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1677,7 +1677,7 @@ GameObject:
   - component: {fileID: 4235004082963898}
   - component: {fileID: 33318523922600122}
   - component: {fileID: 23594736966655566}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh130
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1694,7 +1694,7 @@ GameObject:
   - component: {fileID: 4764131989029038}
   - component: {fileID: 33142614710315428}
   - component: {fileID: 23748056356574994}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh83
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1709,7 +1709,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4087511574053600}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1726,7 +1726,7 @@ GameObject:
   - component: {fileID: 4973749313850764}
   - component: {fileID: 33426182043380494}
   - component: {fileID: 23244162179144022}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1743,7 +1743,7 @@ GameObject:
   - component: {fileID: 4895433081239354}
   - component: {fileID: 33531141513715046}
   - component: {fileID: 23435393278280756}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1758,7 +1758,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4829194270249580}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1775,7 +1775,7 @@ GameObject:
   - component: {fileID: 4525796316705044}
   - component: {fileID: 33763346925907354}
   - component: {fileID: 23814827910651052}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1790,7 +1790,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4164829991716140}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1807,7 +1807,7 @@ GameObject:
   - component: {fileID: 4096384186645524}
   - component: {fileID: 33899690958214674}
   - component: {fileID: 23739694882641916}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh144
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1822,7 +1822,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4295999316796090}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1839,7 +1839,7 @@ GameObject:
   - component: {fileID: 4922773076900610}
   - component: {fileID: 33152225528880848}
   - component: {fileID: 23385379201092522}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1854,7 +1854,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4524249003033360}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1871,7 +1871,7 @@ GameObject:
   - component: {fileID: 4487285084401560}
   - component: {fileID: 33717642968844374}
   - component: {fileID: 23226181754286034}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1886,7 +1886,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4532750877004732}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Landing_Foot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1901,7 +1901,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4895960748018834}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cannon1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1918,7 +1918,7 @@ GameObject:
   - component: {fileID: 4403269954192376}
   - component: {fileID: 33355851227125260}
   - component: {fileID: 23522069211828254}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1933,7 +1933,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4801461040048774}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1950,7 +1950,7 @@ GameObject:
   - component: {fileID: 4899602490578372}
   - component: {fileID: 33325721412050128}
   - component: {fileID: 23447195356076434}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh99
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1967,7 +1967,7 @@ GameObject:
   - component: {fileID: 4829261359893606}
   - component: {fileID: 33588346130081418}
   - component: {fileID: 23099261729386026}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh164
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1982,7 +1982,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4555015480475474}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drive_Section1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1999,7 +1999,7 @@ GameObject:
   - component: {fileID: 4311909886917460}
   - component: {fileID: 33799911337313282}
   - component: {fileID: 23237015191147940}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh168
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2016,7 +2016,7 @@ GameObject:
   - component: {fileID: 4504226831951516}
   - component: {fileID: 33587650891386094}
   - component: {fileID: 23926519341076760}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh103
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2031,7 +2031,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4331963729797722}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2048,7 +2048,7 @@ GameObject:
   - component: {fileID: 4887140043982606}
   - component: {fileID: 33436136984331158}
   - component: {fileID: 23323842857842704}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh110
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2063,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4600210811018802}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2080,7 +2080,7 @@ GameObject:
   - component: {fileID: 4146773267598916}
   - component: {fileID: 33740998742673208}
   - component: {fileID: 23163056163362382}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2095,7 +2095,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4771384620352780}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2112,7 +2112,7 @@ GameObject:
   - component: {fileID: 4778042996623316}
   - component: {fileID: 33446017662605712}
   - component: {fileID: 23494316040104816}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2127,7 +2127,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4303453271662120}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2144,7 +2144,7 @@ GameObject:
   - component: {fileID: 4421631124583206}
   - component: {fileID: 33784822045576882}
   - component: {fileID: 23019881411027146}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh93
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2159,7 +2159,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4306732157467880}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2176,7 +2176,7 @@ GameObject:
   - component: {fileID: 4462681652995706}
   - component: {fileID: 33771473056514926}
   - component: {fileID: 23363627058086772}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh104
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2191,7 +2191,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4439025018848766}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Fuselage1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,7 +2206,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4699308154069696}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Locking_Clamp6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2221,7 +2221,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4919695532459712}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2236,7 +2236,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4169632455510874}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2251,7 +2251,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4316602720209002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2266,7 +2266,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4463331970328660}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intricate_Barrel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2283,7 +2283,7 @@ GameObject:
   - component: {fileID: 4253556821443278}
   - component: {fileID: 33987390390930004}
   - component: {fileID: 23348320074493260}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2298,7 +2298,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4247351561833562}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2315,7 +2315,7 @@ GameObject:
   - component: {fileID: 4435812588104048}
   - component: {fileID: 33166318763029588}
   - component: {fileID: 23732545979735878}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2332,7 +2332,7 @@ GameObject:
   - component: {fileID: 4220885646822282}
   - component: {fileID: 33737474752546904}
   - component: {fileID: 23424493577034262}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2349,7 +2349,7 @@ GameObject:
   - component: {fileID: 4804727443029492}
   - component: {fileID: 33679560602439164}
   - component: {fileID: 23471247281416964}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2364,7 +2364,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4546310312269872}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2381,7 +2381,7 @@ GameObject:
   - component: {fileID: 4161211097992584}
   - component: {fileID: 33294703175942904}
   - component: {fileID: 23533309748423322}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh176
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2396,7 +2396,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4298688976550284}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2413,7 +2413,7 @@ GameObject:
   - component: {fileID: 4360564138974186}
   - component: {fileID: 33514206520468638}
   - component: {fileID: 23392603374484334}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2428,7 +2428,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4972963573777768}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Locking_Clamp3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2445,7 +2445,7 @@ GameObject:
   - component: {fileID: 4842517060309168}
   - component: {fileID: 33583681564536188}
   - component: {fileID: 23229806686637718}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2460,7 +2460,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4921639026201530}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intricate_Barrel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2475,7 +2475,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4070267800204178}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Muzzle_Assembly2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2492,7 +2492,7 @@ GameObject:
   - component: {fileID: 4629288284303194}
   - component: {fileID: 33657025746550656}
   - component: {fileID: 23009182976590152}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh178
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2509,7 +2509,7 @@ GameObject:
   - component: {fileID: 4609410409056710}
   - component: {fileID: 33415895804510622}
   - component: {fileID: 23466269335560276}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh113
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2526,7 +2526,7 @@ GameObject:
   - component: {fileID: 4349163517377970}
   - component: {fileID: 33554808117620466}
   - component: {fileID: 23877051997628898}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh95
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2541,7 +2541,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4713433556407886}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2556,7 +2556,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4705314245169504}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thruster_Ring2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2571,7 +2571,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4916735934907722}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2588,7 +2588,7 @@ GameObject:
   - component: {fileID: 4314301737294288}
   - component: {fileID: 33476339831331984}
   - component: {fileID: 23174702050403304}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2603,7 +2603,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4131001852728842}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2618,7 +2618,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4042551214486324}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2633,7 +2633,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4400604391489586}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2648,7 +2648,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4289567026977644}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cannon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,7 +2665,7 @@ GameObject:
   - component: {fileID: 4127136318731736}
   - component: {fileID: 33072520715518882}
   - component: {fileID: 23574543519874014}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh152
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2680,7 +2680,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4440489151259832}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2695,7 +2695,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4800858256962912}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2712,7 +2712,7 @@ GameObject:
   - component: {fileID: 4018373818143552}
   - component: {fileID: 33921080008069804}
   - component: {fileID: 23122497693221276}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2729,7 +2729,7 @@ GameObject:
   - component: {fileID: 4078459424678904}
   - component: {fileID: 33924945690203084}
   - component: {fileID: 23614201571125448}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh97
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2744,7 +2744,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4461961157737816}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2762,9 +2762,10 @@ GameObject:
   - component: {fileID: 33587328756342602}
   - component: {fileID: 65371784993170784}
   - component: {fileID: 23302954917054348}
-  m_Layer: 0
+  - component: {fileID: 114830165892277834}
+  m_Layer: 12
   m_Name: StealthShip
-  m_TagString: Untagged
+  m_TagString: Ship
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2777,7 +2778,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4857292481334864}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2794,7 +2795,7 @@ GameObject:
   - component: {fileID: 4073764574052842}
   - component: {fileID: 33280811832783560}
   - component: {fileID: 23002403775004954}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh156
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2809,7 +2810,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4705299980785572}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2826,7 +2827,7 @@ GameObject:
   - component: {fileID: 4565248145178458}
   - component: {fileID: 33587544140517386}
   - component: {fileID: 23469780808180050}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2843,7 +2844,7 @@ GameObject:
   - component: {fileID: 4147304799360202}
   - component: {fileID: 33044922820276226}
   - component: {fileID: 23672238821993132}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2860,7 +2861,7 @@ GameObject:
   - component: {fileID: 4275823590583712}
   - component: {fileID: 33803639278627104}
   - component: {fileID: 23903220513597456}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2877,7 +2878,7 @@ GameObject:
   - component: {fileID: 4442576456180516}
   - component: {fileID: 33501863476324266}
   - component: {fileID: 23341411085316808}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh124
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2894,7 +2895,7 @@ GameObject:
   - component: {fileID: 4812509551957146}
   - component: {fileID: 33930803510800652}
   - component: {fileID: 23823820405993090}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh155
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2909,7 +2910,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4421142587567552}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2924,7 +2925,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4968527486681716}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Locking_Clamp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2939,7 +2940,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4837867560250506}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Galvin_Extensions1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2954,7 +2955,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4408022169638580}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2969,7 +2970,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4245254377373616}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2986,7 +2987,7 @@ GameObject:
   - component: {fileID: 4568852278554900}
   - component: {fileID: 33680300433563176}
   - component: {fileID: 23128681745223370}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3001,7 +3002,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4191733721021520}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Sighting_system1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3016,7 +3017,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4928208317650034}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3031,7 +3032,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4570500812827052}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3046,7 +3047,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4856463951878872}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thruster_Ring_1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3063,7 +3064,7 @@ GameObject:
   - component: {fileID: 4742297354013074}
   - component: {fileID: 33379863276553272}
   - component: {fileID: 23055853534839152}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3080,7 +3081,7 @@ GameObject:
   - component: {fileID: 4417466552460870}
   - component: {fileID: 33845158567582370}
   - component: {fileID: 23507028727659084}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh112
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3095,7 +3096,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4966049769975160}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3110,7 +3111,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4933227455926238}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Locking_Clamp5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3127,7 +3128,7 @@ GameObject:
   - component: {fileID: 4829211729503000}
   - component: {fileID: 33672731234484550}
   - component: {fileID: 23045864868585602}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3144,7 +3145,7 @@ GameObject:
   - component: {fileID: 4919638474317606}
   - component: {fileID: 33241568039423710}
   - component: {fileID: 23102660191238498}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3159,7 +3160,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4851575518832742}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3176,7 +3177,7 @@ GameObject:
   - component: {fileID: 4508697145163082}
   - component: {fileID: 33463215025709512}
   - component: {fileID: 23825638487620602}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3191,7 +3192,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4631695130461556}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3208,7 +3209,7 @@ GameObject:
   - component: {fileID: 4016313564390380}
   - component: {fileID: 33756591776282284}
   - component: {fileID: 23233630900857898}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3225,7 +3226,7 @@ GameObject:
   - component: {fileID: 4444956114282078}
   - component: {fileID: 33978237016950958}
   - component: {fileID: 23303646515465270}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3242,7 +3243,7 @@ GameObject:
   - component: {fileID: 4060522133217208}
   - component: {fileID: 33531003506856976}
   - component: {fileID: 23887306488467904}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh153
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3257,7 +3258,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4042633695829328}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3274,7 +3275,7 @@ GameObject:
   - component: {fileID: 4793835892406288}
   - component: {fileID: 33540512378397854}
   - component: {fileID: 23044688545835132}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3289,7 +3290,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4300223169892202}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3304,7 +3305,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4733788282091432}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thrust_Ring3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3319,7 +3320,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4166702789038862}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pods2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3334,7 +3335,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4997438109750010}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Locking_Clamp4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3351,7 +3352,7 @@ GameObject:
   - component: {fileID: 4751477681693018}
   - component: {fileID: 33453205271024750}
   - component: {fileID: 23856796406448666}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3366,7 +3367,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4713284158657554}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3383,7 +3384,7 @@ GameObject:
   - component: {fileID: 4016278832375910}
   - component: {fileID: 33967197622130864}
   - component: {fileID: 23740722901381898}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh134
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3400,7 +3401,7 @@ GameObject:
   - component: {fileID: 4528464356978460}
   - component: {fileID: 33331474684888490}
   - component: {fileID: 23059402914579816}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh180
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3415,7 +3416,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4982678307703914}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3432,7 +3433,7 @@ GameObject:
   - component: {fileID: 4787089008985612}
   - component: {fileID: 33004450791189680}
   - component: {fileID: 23025918799171706}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3449,7 +3450,7 @@ GameObject:
   - component: {fileID: 4676321877198418}
   - component: {fileID: 33578400533166742}
   - component: {fileID: 23605239779883838}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh138
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3465,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4658900822272126}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3479,7 +3480,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4689016137292674}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3494,7 +3495,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4666043505422306}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3509,7 +3510,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4444012329879956}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3526,7 +3527,7 @@ GameObject:
   - component: {fileID: 4701029009566720}
   - component: {fileID: 33600381530176506}
   - component: {fileID: 23881455835243606}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh166
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3543,7 +3544,7 @@ GameObject:
   - component: {fileID: 4834069740271288}
   - component: {fileID: 33783113031991694}
   - component: {fileID: 23816215895773940}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh131
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3558,7 +3559,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4494226149104702}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3573,7 +3574,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4092648255509198}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3590,7 +3591,7 @@ GameObject:
   - component: {fileID: 4440215780763348}
   - component: {fileID: 33254086043572480}
   - component: {fileID: 23618256864211954}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3605,7 +3606,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4991574266606158}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3620,7 +3621,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4899136460072690}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3637,7 +3638,7 @@ GameObject:
   - component: {fileID: 4960431954945824}
   - component: {fileID: 33273606209577650}
   - component: {fileID: 23741965829869078}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3652,7 +3653,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4457352855786834}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3669,7 +3670,7 @@ GameObject:
   - component: {fileID: 4903493119049508}
   - component: {fileID: 33140556718518562}
   - component: {fileID: 23159856076242508}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3686,7 +3687,7 @@ GameObject:
   - component: {fileID: 4038584334937440}
   - component: {fileID: 33509404324054918}
   - component: {fileID: 23563345714236566}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3703,7 +3704,7 @@ GameObject:
   - component: {fileID: 4236102332735174}
   - component: {fileID: 33175665596687436}
   - component: {fileID: 23400848364587708}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh85
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3718,7 +3719,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4572573090154390}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3735,7 +3736,7 @@ GameObject:
   - component: {fileID: 4292523798628012}
   - component: {fileID: 33830470156733962}
   - component: {fileID: 23579964507006232}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh94
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3752,7 +3753,7 @@ GameObject:
   - component: {fileID: 4417292642760682}
   - component: {fileID: 33053521906862170}
   - component: {fileID: 23734997963910602}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3769,7 +3770,7 @@ GameObject:
   - component: {fileID: 4546668654373996}
   - component: {fileID: 33466030615855136}
   - component: {fileID: 23223013997348872}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh135
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3784,7 +3785,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4674272026221716}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3801,7 +3802,7 @@ GameObject:
   - component: {fileID: 4098382058841470}
   - component: {fileID: 33327258010716072}
   - component: {fileID: 23589555966114164}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh145
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3816,7 +3817,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4388725388044234}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3831,7 +3832,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4694738691756872}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Array1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3846,7 +3847,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4310898137769520}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3863,7 +3864,7 @@ GameObject:
   - component: {fileID: 4228292421810100}
   - component: {fileID: 33533289576108872}
   - component: {fileID: 23073199417467140}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh80
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3880,7 +3881,7 @@ GameObject:
   - component: {fileID: 4019313175801368}
   - component: {fileID: 33365683235147994}
   - component: {fileID: 23585010096448672}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh165
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3895,7 +3896,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4061749752654512}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3910,7 +3911,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4572644983541288}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3925,7 +3926,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4556882954532148}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Thruster_Ring_1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3940,7 +3941,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4467353470925280}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3957,7 +3958,7 @@ GameObject:
   - component: {fileID: 4404528783581570}
   - component: {fileID: 33862023919138072}
   - component: {fileID: 23815090069546920}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3972,7 +3973,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4891655572600968}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Half_Shell2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3989,7 +3990,7 @@ GameObject:
   - component: {fileID: 4874840657612844}
   - component: {fileID: 33707868788461958}
   - component: {fileID: 23315739471735016}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4004,7 +4005,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4044224949757502}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4019,7 +4020,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4746842376441294}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4036,7 +4037,7 @@ GameObject:
   - component: {fileID: 4904131515085194}
   - component: {fileID: 33847020661954248}
   - component: {fileID: 23583818020415262}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh157
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4053,7 +4054,7 @@ GameObject:
   - component: {fileID: 4945495949309160}
   - component: {fileID: 33258914724741712}
   - component: {fileID: 23869584364957588}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh137
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4068,7 +4069,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4079023799299642}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SW_Ion_Cannon_3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4085,7 +4086,7 @@ GameObject:
   - component: {fileID: 4172297352123348}
   - component: {fileID: 33250663856096862}
   - component: {fileID: 23258184800338366}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4102,7 +4103,7 @@ GameObject:
   - component: {fileID: 4596277492814060}
   - component: {fileID: 33489479693721708}
   - component: {fileID: 23111492989680152}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh161
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4117,7 +4118,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4868475240888746}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pods1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4132,7 +4133,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4265070775115440}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Engine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4147,7 +4148,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4714342010567118}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4164,7 +4165,7 @@ GameObject:
   - component: {fileID: 4244044499012832}
   - component: {fileID: 33280527831321892}
   - component: {fileID: 23275010198692966}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4181,7 +4182,7 @@ GameObject:
   - component: {fileID: 4089899383736888}
   - component: {fileID: 33276787316567772}
   - component: {fileID: 23342059828291178}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4198,7 +4199,7 @@ GameObject:
   - component: {fileID: 4404481444436898}
   - component: {fileID: 33414165446177068}
   - component: {fileID: 23479366791528542}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh151
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4213,7 +4214,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4062554259470250}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Half_Shell1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4230,7 +4231,7 @@ GameObject:
   - component: {fileID: 4708220930752454}
   - component: {fileID: 33615759298318708}
   - component: {fileID: 23687166920319908}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4245,7 +4246,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4830425087485066}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4262,7 +4263,7 @@ GameObject:
   - component: {fileID: 4109477014912642}
   - component: {fileID: 33138003775349684}
   - component: {fileID: 23221733670342686}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh179
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4277,7 +4278,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4553839280287420}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4292,7 +4293,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4486036461023900}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4309,7 +4310,7 @@ GameObject:
   - component: {fileID: 4950316857986188}
   - component: {fileID: 33632545983198838}
   - component: {fileID: 23918977539223536}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh150
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4324,7 +4325,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4264324921144108}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4339,7 +4340,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4727809583595698}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4354,7 +4355,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4121602590203114}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4369,7 +4370,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4509205003934856}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4384,7 +4385,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4017360964687268}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Engine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4399,7 +4400,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4255661100191284}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4414,7 +4415,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4798252509140402}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Longboat1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4431,7 +4432,7 @@ GameObject:
   - component: {fileID: 4476124388737392}
   - component: {fileID: 33193953340538348}
   - component: {fileID: 23520328670766220}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh108
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4446,7 +4447,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4800744991606208}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Turbolaser_Cannon1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4463,7 +4464,7 @@ GameObject:
   - component: {fileID: 4332310676485344}
   - component: {fileID: 33840099994557576}
   - component: {fileID: 23170118741143418}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh106
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4478,7 +4479,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4905039383309858}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4493,7 +4494,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4695742130807108}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4510,7 +4511,7 @@ GameObject:
   - component: {fileID: 4041516699284252}
   - component: {fileID: 33193395225365114}
   - component: {fileID: 23010287438562006}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh140
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4525,7 +4526,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4375616512222110}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SW_Laser_Cannon1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4540,7 +4541,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4426906166362814}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4555,7 +4556,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4724305369129478}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4572,7 +4573,7 @@ GameObject:
   - component: {fileID: 4510789814079132}
   - component: {fileID: 33727903582666790}
   - component: {fileID: 23926952962947640}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh141
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +4590,7 @@ GameObject:
   - component: {fileID: 4557277277455420}
   - component: {fileID: 33737056042759442}
   - component: {fileID: 23467766764781092}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh105
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4606,7 +4607,7 @@ GameObject:
   - component: {fileID: 4018055765519400}
   - component: {fileID: 33299818657316516}
   - component: {fileID: 23962965098043276}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh162
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4621,7 +4622,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4721827674081650}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4636,7 +4637,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4199210885175316}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4653,7 +4654,7 @@ GameObject:
   - component: {fileID: 4043348291750666}
   - component: {fileID: 33245748749560536}
   - component: {fileID: 23111894459799716}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4668,7 +4669,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4099003356493074}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4685,7 +4686,7 @@ GameObject:
   - component: {fileID: 4528516146252992}
   - component: {fileID: 33130462868545654}
   - component: {fileID: 23654234046585506}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4702,7 +4703,7 @@ GameObject:
   - component: {fileID: 4643643508518810}
   - component: {fileID: 33828045858778060}
   - component: {fileID: 23184588382338060}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4717,7 +4718,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4113706417093098}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4734,7 +4735,7 @@ GameObject:
   - component: {fileID: 4076392179477958}
   - component: {fileID: 33084816779552128}
   - component: {fileID: 23814851348180942}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4751,7 +4752,7 @@ GameObject:
   - component: {fileID: 4680976205280118}
   - component: {fileID: 33401397428765786}
   - component: {fileID: 23152467571181558}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4768,7 +4769,7 @@ GameObject:
   - component: {fileID: 4913565889555730}
   - component: {fileID: 33236123261406742}
   - component: {fileID: 23277483555214758}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh125
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4783,7 +4784,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4092122234560042}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4798,7 +4799,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4346363698340288}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Sighting_system2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4815,7 +4816,7 @@ GameObject:
   - component: {fileID: 4916255384709472}
   - component: {fileID: 33940216290341320}
   - component: {fileID: 23487079608752970}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4832,7 +4833,7 @@ GameObject:
   - component: {fileID: 4181326068819852}
   - component: {fileID: 33392208219600438}
   - component: {fileID: 23435951262181406}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4849,7 +4850,7 @@ GameObject:
   - component: {fileID: 4780208202157980}
   - component: {fileID: 33034390105592686}
   - component: {fileID: 23057516638390598}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4864,7 +4865,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4663095321081732}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4881,7 +4882,7 @@ GameObject:
   - component: {fileID: 4291136318168902}
   - component: {fileID: 33467146559924368}
   - component: {fileID: 23280043627423896}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4898,7 +4899,7 @@ GameObject:
   - component: {fileID: 4743323896842628}
   - component: {fileID: 33504519322561506}
   - component: {fileID: 23988145629891284}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4913,7 +4914,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4461680274296566}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Engine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4930,7 +4931,7 @@ GameObject:
   - component: {fileID: 4531258443168724}
   - component: {fileID: 33955257609112458}
   - component: {fileID: 23908996792192240}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh147
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4945,7 +4946,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4964821780283502}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4960,7 +4961,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4621588696567094}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4975,7 +4976,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4514108193727558}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4992,7 +4993,7 @@ GameObject:
   - component: {fileID: 4580004664366316}
   - component: {fileID: 33340653850391384}
   - component: {fileID: 23377016887526494}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5009,7 +5010,7 @@ GameObject:
   - component: {fileID: 4088236413159610}
   - component: {fileID: 33721337114774198}
   - component: {fileID: 23574291980994868}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5024,7 +5025,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4070541406933088}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Turbolaser_Cannon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5039,7 +5040,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4261230066225904}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5056,7 +5057,7 @@ GameObject:
   - component: {fileID: 4349140290229098}
   - component: {fileID: 33442357965081998}
   - component: {fileID: 23744277010075336}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5071,7 +5072,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4333407189489792}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5086,7 +5087,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4974504946676024}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5101,7 +5102,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4446812627347340}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5116,7 +5117,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4289543050517182}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5131,7 +5132,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4521152682453780}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Endcap2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5148,7 +5149,7 @@ GameObject:
   - component: {fileID: 4630899512742030}
   - component: {fileID: 33657415257032514}
   - component: {fileID: 23636654175447338}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh173
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5163,7 +5164,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4906101079248444}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5178,7 +5179,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4159964755747544}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Landing_Foot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5195,7 +5196,7 @@ GameObject:
   - component: {fileID: 4844528777729596}
   - component: {fileID: 33241472238816882}
   - component: {fileID: 23281337076000890}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh169
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5210,7 +5211,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4147398798050128}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5227,7 +5228,7 @@ GameObject:
   - component: {fileID: 4951714122892706}
   - component: {fileID: 33434364164382778}
   - component: {fileID: 23525864169150398}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh172
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5244,7 +5245,7 @@ GameObject:
   - component: {fileID: 4725016038666802}
   - component: {fileID: 33896277274342628}
   - component: {fileID: 23051986912335624}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh146
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5261,7 +5262,7 @@ GameObject:
   - component: {fileID: 4846192839087342}
   - component: {fileID: 33777937799393492}
   - component: {fileID: 23520994068388198}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5278,7 +5279,7 @@ GameObject:
   - component: {fileID: 4617805111641346}
   - component: {fileID: 33081518540153236}
   - component: {fileID: 23585779142352576}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh119
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5295,7 +5296,7 @@ GameObject:
   - component: {fileID: 4677613337534932}
   - component: {fileID: 33856761409480660}
   - component: {fileID: 23808682297519834}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh158
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5312,7 +5313,7 @@ GameObject:
   - component: {fileID: 4762056186907704}
   - component: {fileID: 33247394045329144}
   - component: {fileID: 23132822145171394}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh132
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5329,7 +5330,7 @@ GameObject:
   - component: {fileID: 4142803250733132}
   - component: {fileID: 33985477900023966}
   - component: {fileID: 23194008780635294}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh109
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5346,7 +5347,7 @@ GameObject:
   - component: {fileID: 4773021722982870}
   - component: {fileID: 33759216172014692}
   - component: {fileID: 23333476177678012}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5361,7 +5362,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4352842089188316}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5376,7 +5377,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4102226172324940}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5391,7 +5392,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4494501073170240}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5406,7 +5407,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4541179481743178}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5421,7 +5422,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4838482981395210}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5438,7 +5439,7 @@ GameObject:
   - component: {fileID: 4207606221495948}
   - component: {fileID: 33362979623070836}
   - component: {fileID: 23406751979842518}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5453,7 +5454,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4153143769084444}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5470,7 +5471,7 @@ GameObject:
   - component: {fileID: 4187863574382482}
   - component: {fileID: 33526682128348780}
   - component: {fileID: 23932648998964726}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh116
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5487,7 +5488,7 @@ GameObject:
   - component: {fileID: 4123894944211322}
   - component: {fileID: 33843074272036980}
   - component: {fileID: 23040749857604294}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh143
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5504,7 +5505,7 @@ GameObject:
   - component: {fileID: 4544836909521120}
   - component: {fileID: 33554424887007622}
   - component: {fileID: 23147189297700276}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5521,7 +5522,7 @@ GameObject:
   - component: {fileID: 4379406652618948}
   - component: {fileID: 33669791244447216}
   - component: {fileID: 23897605870800728}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh107
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5536,7 +5537,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4325157156318656}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5553,7 +5554,7 @@ GameObject:
   - component: {fileID: 4667940002050754}
   - component: {fileID: 33037379214486816}
   - component: {fileID: 23763372890293504}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5570,7 +5571,7 @@ GameObject:
   - component: {fileID: 4734227991442666}
   - component: {fileID: 33610018780760834}
   - component: {fileID: 23083666992376636}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh161
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5587,7 +5588,7 @@ GameObject:
   - component: {fileID: 4845609594031994}
   - component: {fileID: 33422843163050650}
   - component: {fileID: 23740076411914892}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh79
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5602,7 +5603,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4421911639399060}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5619,7 +5620,7 @@ GameObject:
   - component: {fileID: 4971662312535036}
   - component: {fileID: 33393088041177604}
   - component: {fileID: 23890156518818036}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh121
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5636,7 +5637,7 @@ GameObject:
   - component: {fileID: 4618156376729974}
   - component: {fileID: 33098767756359906}
   - component: {fileID: 23174829734048382}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5653,7 +5654,7 @@ GameObject:
   - component: {fileID: 4763752784120168}
   - component: {fileID: 33451789802394084}
   - component: {fileID: 23660752703226674}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5670,7 +5671,7 @@ GameObject:
   - component: {fileID: 4864114728047412}
   - component: {fileID: 33856235522634684}
   - component: {fileID: 23562466372937398}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5687,7 +5688,7 @@ GameObject:
   - component: {fileID: 4653469275635262}
   - component: {fileID: 33225876406168684}
   - component: {fileID: 23450088698375232}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh126
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5702,7 +5703,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4924536676180270}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Galvin_Extensions2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5719,7 +5720,7 @@ GameObject:
   - component: {fileID: 4698607696997248}
   - component: {fileID: 33434588326022138}
   - component: {fileID: 23534424735175822}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh177
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5734,7 +5735,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4237776752793888}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: IG_Blaster_B1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5751,7 +5752,7 @@ GameObject:
   - component: {fileID: 4165092259440182}
   - component: {fileID: 33955705903616060}
   - component: {fileID: 23915392049287626}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5766,7 +5767,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4679362356795340}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5783,7 +5784,7 @@ GameObject:
   - component: {fileID: 4261092071857634}
   - component: {fileID: 33781519131828732}
   - component: {fileID: 23896591618419522}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh120
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5798,7 +5799,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4426246419211280}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Iron_Giant_Barrel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5813,7 +5814,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4516970608610118}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Airlock18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5830,7 +5831,7 @@ GameObject:
   - component: {fileID: 4812373539496758}
   - component: {fileID: 33460330660931446}
   - component: {fileID: 23009291236021314}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5847,7 +5848,7 @@ GameObject:
   - component: {fileID: 4441961518420644}
   - component: {fileID: 33494465411697156}
   - component: {fileID: 23688130830659088}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5864,7 +5865,7 @@ GameObject:
   - component: {fileID: 4967754770260398}
   - component: {fileID: 33675568073921722}
   - component: {fileID: 23247225699800796}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh175
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5881,7 +5882,7 @@ GameObject:
   - component: {fileID: 4623239176366870}
   - component: {fileID: 33060893542923684}
   - component: {fileID: 23556634055221930}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh159
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5896,7 +5897,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4172098853290830}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5913,7 +5914,7 @@ GameObject:
   - component: {fileID: 4768051462707314}
   - component: {fileID: 33904795850358386}
   - component: {fileID: 23320660460617906}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh122
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5928,7 +5929,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4076634146882938}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Intake_Grill30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5943,7 +5944,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4176139391090134}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SW_Laser_Cannon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5958,7 +5959,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4434315672925372}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cargo_Pod_Walls12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5975,7 +5976,7 @@ GameObject:
   - component: {fileID: 4335606603355198}
   - component: {fileID: 33111126348667788}
   - component: {fileID: 23552826287088020}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh111
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5992,7 +5993,7 @@ GameObject:
   - component: {fileID: 4953752977250044}
   - component: {fileID: 33996465888459620}
   - component: {fileID: 23459585567463978}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh86
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6009,7 +6010,7 @@ GameObject:
   - component: {fileID: 4799744368583778}
   - component: {fileID: 33213465975997544}
   - component: {fileID: 23813811250235332}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6024,7 +6025,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4459146251329472}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bracket26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6041,7 +6042,7 @@ GameObject:
   - component: {fileID: 4951125471093640}
   - component: {fileID: 33835099320222614}
   - component: {fileID: 23499434565088786}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh154
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6058,7 +6059,7 @@ GameObject:
   - component: {fileID: 4778832236193026}
   - component: {fileID: 33887941228653760}
   - component: {fileID: 23329563366204770}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mesh57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7187,7 +7188,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1453018879458830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.24}
+  m_LocalPosition: {x: -10.47, y: 0, z: 20.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4541179481743178}
@@ -8822,7 +8823,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1901598386014862}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 2.87}
+  m_LocalPosition: {x: -0, y: -0.51, z: 2.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4798252509140402}
@@ -18922,7 +18923,41 @@ BoxCollider:
   m_GameObject: {fileID: 1453018879458830}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 6.49, y: 3.4, z: 19.12}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114830165892277834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1453018879458830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4db03a2603ec544885845a79665f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sphere: {fileID: 0}
+  HasPeople: 0
+  ShipMass: 312
+  ForceNeededForOneG: 2.352
+  MainEnginePower: 1
+  MainDriveAcceleration: 0
+  GForceLimit: 100
+  RcsPower: 1
+  RcsAcceleration: 0
+  RcsVector3: {x: 0, y: 0, z: 0}
+  CurrentVelocity: {x: 0, y: 0, z: 0}
+  CurrentRotation: {x: 0, y: 0, z: 0}
+  RotQuat: {x: 0, y: 0, z: 0, w: 1}
+  DesiredVector3: {x: 0, y: 0, z: 0}
+  SteeringVector3: {x: 0, y: 0, z: 0}
+  Speed: 0
+  RotationSpeed: 0.1
+  ScannerRange: 1000
+  TargetPosition: {x: 0, y: 0, z: 0}
+  PrimaryTargetsVelocity: {x: 0, y: 0, z: 0}
+  AimPosition: {x: 0, y: 0, z: 0}
+  PrimaryTargetObject: {fileID: 0}
+  TargetObjects: []
