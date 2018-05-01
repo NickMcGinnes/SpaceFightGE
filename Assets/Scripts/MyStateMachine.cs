@@ -1,9 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
-
-public class MyStateMachine
+﻿public class MyStateMachine
 {
 	//private List<IState> _listStates;
 	private IState _currentRunningState;

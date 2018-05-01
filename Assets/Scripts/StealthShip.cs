@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class StealthShip : Ship
+﻿public class StealthShip : Ship
 {
 
 	public Path myPatrolPath;

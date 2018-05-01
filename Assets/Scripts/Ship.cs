@@ -1,9 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using NUnit.Framework;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Assertions.Comparers;
-using UnityEngine.Timeline;
 
 public class Ship : MonoBehaviour
 {

@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class StateEngage : IState
 {
@@ -17,7 +14,6 @@ public class StateEngage : IState
 
     public override void Exit()
     {
-        throw new System.NotImplementedException();
     }
 
     public override void Execute()
@@ -28,6 +24,10 @@ public class StateEngage : IState
 
     void ControlGuns()
     {
+        if (MyShip.PrimaryTargetObject == null) return;
+        if ((MyShip.transform.position - MyShip.PrimaryTargetObject.transform.position).magnitude <
+            MyShip.AimPosition.magnitude)
+            MyShip.AimPosition = MyShip.PrimaryTargetObject.transform.position;
         foreach (GameObject gun in MyShip.myGuns)
         {
             gun.transform.LookAt(MyShip.AimPosition);

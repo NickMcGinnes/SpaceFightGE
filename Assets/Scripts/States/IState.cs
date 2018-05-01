@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-public abstract class IState 
+﻿public abstract class IState 
 {
 	protected Ship MyShip;
 

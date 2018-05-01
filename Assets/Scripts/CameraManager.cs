@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraManager : MonoBehaviour
@@ -11,6 +10,11 @@ public class CameraManager : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
+		if (objects[index] == null)
+		{
+			objects.RemoveAt(index);
+			index = 0;
+		}
 		
 		if (Input.GetMouseButtonDown(0))
 		{
@@ -21,6 +25,7 @@ public class CameraManager : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.Space))
 			tacCam.SetActive(! tacCam.activeSelf);
+
 		
 		cam.transform.position = objects[index].transform.position;
 	}

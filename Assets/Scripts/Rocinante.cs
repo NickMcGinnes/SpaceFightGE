@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Rocinante : Ship {
+﻿public class Rocinante : Ship {
 
 	// Use this for initialization
 	public override void Start ()

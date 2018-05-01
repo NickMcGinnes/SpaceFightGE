@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class StateCombat : IState
 {
@@ -110,6 +108,7 @@ public class StateCombat : IState
 
 	void RotatetoTarget()
 	{
+		if (MyShip.PrimaryTargetObject == null) return;
 		MyShip.RotQuat = Quaternion.LookRotation(MyShip.PrimaryTargetObject.transform.position - MyShip.transform.position);
 		MyShip.transform.rotation = Quaternion.Slerp(MyShip.transform.rotation, MyShip.RotQuat, MyShip.RotationSpeed);
 	}
